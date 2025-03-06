@@ -16,7 +16,99 @@
         "sig_verify_cost_ed25519": "590",
         "sig_verify_cost_secp256k1": "1000"
       },
-      "accounts": []
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union19d434y2rcw0swhuzly2evf3srteqz8ll0qkkka",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union1nzlyr7cc9v3e0x50gdg9zpwl5fwsqh3wqgcerw",
+          "pub_key": null,
+          "account_number": "1",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union1wd7vv04cutval0j5gm27qqx09u0hn3589xuulv",
+          "pub_key": null,
+          "account_number": "2",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union16cls5txlsv46v03wxdh0af8h329yv88zh8aq7c",
+          "pub_key": null,
+          "account_number": "3",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union140l6y2gp3gxvay6qtn70re7z2s0gn57zxwjvgs",
+          "pub_key": null,
+          "account_number": "4",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union1fvshtyvame9388rk5837nkzvavg920qx5rymuf",
+          "pub_key": null,
+          "account_number": "5",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union1wpm2d4h73pd5d6u3p7rw8707rkenduuckhxcsm",
+          "pub_key": null,
+          "account_number": "6",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union1n8pkyv96q4mtfn26yhkkngs4h6m58uvm9g5mwr",
+          "pub_key": null,
+          "account_number": "7",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union1g3uejnvsh3kmv9s534r9jauft80ejp469ngwu5",
+          "pub_key": null,
+          "account_number": "8",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union1e0c462q7lsf6kjpgvdfn6ll8zk58lyxtt0vhq9",
+          "pub_key": null,
+          "account_number": "9",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union13tk8m5eas6fs2sk79t9ujg9c98elp4gu7v589q",
+          "pub_key": null,
+          "account_number": "10",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union1tqhcnpjwfggpdjptc5nqrtwq8l9g33kak8gwrh",
+          "pub_key": null,
+          "account_number": "11",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union1pxgkleez58ehed6d0k0pnvz7jvxutgss4hktdq",
+          "pub_key": null,
+          "account_number": "12",
+          "sequence": "0"
+        }
+      ]
     },
     "authz": {
       "authorization": []
@@ -26,8 +118,159 @@
         "send_enabled": [],
         "default_send_enabled": true
       },
-      "balances": [],
-      "supply": [],
+      "balances": [
+        {
+          "address": "union1pxgkleez58ehed6d0k0pnvz7jvxutgss4hktdq",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "union19d434y2rcw0swhuzly2evf3srteqz8ll0qkkka",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "10000000000000"
+            },
+            {
+              "denom": "upoa",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "address": "union1g3uejnvsh3kmv9s534r9jauft80ejp469ngwu5",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "union1fvshtyvame9388rk5837nkzvavg920qx5rymuf",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "10000000000000"
+            },
+            {
+              "denom": "upoa",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "address": "union1tqhcnpjwfggpdjptc5nqrtwq8l9g33kak8gwrh",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "union1wpm2d4h73pd5d6u3p7rw8707rkenduuckhxcsm",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "521000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "union1wd7vv04cutval0j5gm27qqx09u0hn3589xuulv",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "10000000000000"
+            },
+            {
+              "denom": "upoa",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "address": "union13tk8m5eas6fs2sk79t9ujg9c98elp4gu7v589q",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "union1nzlyr7cc9v3e0x50gdg9zpwl5fwsqh3wqgcerw",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "10000000000000"
+            },
+            {
+              "denom": "upoa",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "address": "union1n8pkyv96q4mtfn26yhkkngs4h6m58uvm9g5mwr",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "union140l6y2gp3gxvay6qtn70re7z2s0gn57zxwjvgs",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "10000000000000"
+            },
+            {
+              "denom": "upoa",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "address": "union1e0c462q7lsf6kjpgvdfn6ll8zk58lyxtt0vhq9",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "union16cls5txlsv46v03wxdh0af8h329yv88zh8aq7c",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "10000000000000"
+            },
+            {
+              "denom": "upoa",
+              "amount": "1"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "denom": "ugas",
+          "amount": "521360000000000000"
+        },
+        {
+          "denom": "upoa",
+          "amount": "6"
+        }
+      ],
       "denom_metadata": [],
       "send_enabled": []
     },
