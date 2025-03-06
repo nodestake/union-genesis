@@ -1,7 +1,7 @@
 {
   "app_name": "uniond",
   "app_version": "",
-  "genesis_time": "2025-02-25T20:29:21.738673591Z",
+  "genesis_time": "2025-03-06T03:27:03.681418972Z",
   "chain_id": "union-1",
   "initial_height": 1,
   "app_hash": null,
@@ -42,7 +42,7 @@
     "consensus": null,
     "crisis": {
       "constant_fee": {
-        "denom": "uprotecc",
+        "denom": "stake",
         "amount": "1000"
       }
     },
@@ -78,6 +78,30 @@
       "registered_counterparty_payees": [],
       "forward_relayers": []
     },
+    "feemarket": {
+      "params": {
+        "alpha": "0.000000000000000000",
+        "beta": "1.000000000000000000",
+        "gamma": "0.000000000000000000",
+        "delta": "0.000000000000000000",
+        "min_base_gas_price": "1.000000000000000000",
+        "min_learning_rate": "0.125000000000000000",
+        "max_learning_rate": "0.125000000000000000",
+        "max_block_utilization": "30000000",
+        "window": "1",
+        "fee_denom": "stake",
+        "enabled": true,
+        "distribute_fees": false
+      },
+      "state": {
+        "base_gas_price": "1.000000000000000000",
+        "learning_rate": "0.125000000000000000",
+        "window": [
+          "0"
+        ],
+        "index": "0"
+      }
+    },
     "genutil": {
       "gen_txs": []
     },
@@ -92,23 +116,23 @@
       "params": {
         "min_deposit": [
           {
-            "denom": "uprotecc",
+            "denom": "stake",
             "amount": "10000000"
           }
         ],
-        "max_deposit_period": "86400s",
-        "voting_period": "14400s",
+        "max_deposit_period": "172800s",
+        "voting_period": "172800s",
         "quorum": "0.334000000000000000",
         "threshold": "0.500000000000000000",
         "veto_threshold": "0.334000000000000000",
         "min_initial_deposit_ratio": "0.000000000000000000",
         "proposal_cancel_ratio": "0.500000000000000000",
         "proposal_cancel_dest": "",
-        "expedited_voting_period": "3600s",
+        "expedited_voting_period": "86400s",
         "expedited_threshold": "0.667000000000000000",
         "expedited_min_deposit": [
           {
-            "denom": "uprotecc",
+            "denom": "stake",
             "amount": "50000000"
           }
         ],
@@ -176,7 +200,7 @@
         "annual_provisions": "0.000000000000000000"
       },
       "params": {
-        "mint_denom": "uprotecc",
+        "mint_denom": "stake",
         "inflation_rate_change": "0.130000000000000000",
         "inflation_max": "0.200000000000000000",
         "inflation_min": "0.070000000000000000",
@@ -191,25 +215,25 @@
     "runtime": null,
     "slashing": {
       "params": {
-        "signed_blocks_window": "1000",
+        "signed_blocks_window": "100",
         "min_signed_per_window": "0.500000000000000000",
         "downtime_jail_duration": "600s",
-        "slash_fraction_double_sign": "0.000000000000000000",
-        "slash_fraction_downtime": "0.000000000000000000"
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
       },
       "signing_infos": [],
       "missed_blocks": []
     },
     "staking": {
       "params": {
-        "unbonding_time": "86400s",
-        "max_validators": 128,
+        "unbonding_time": "1814400s",
+        "max_validators": 100,
         "max_entries": 7,
         "historical_entries": 10000,
-        "bond_denom": "upoa",
+        "bond_denom": "stake",
         "min_commission_rate": "0.000000000000000000",
         "jailed_validator_threshold": 50,
-        "epoch_length": "100"
+        "epoch_length": "1"
       },
       "last_total_power": "0",
       "last_validator_powers": [],
@@ -246,8 +270,8 @@
   "consensus": {
     "params": {
       "block": {
-        "max_bytes": "22020096",
-        "max_gas": "-1"
+        "max_bytes": "4194304",
+        "max_gas": "10000000"
       },
       "evidence": {
         "max_age_num_blocks": "100000",
@@ -262,8 +286,13 @@
       "version": {
         "app": "0"
       },
-      "abci": {
-        "vote_extensions_enable_height": "0"
+      "synchrony": {
+        "precision": "505000000",
+        "message_delay": "15000000000"
+      },
+      "feature": {
+        "vote_extensions_enable_height": "0",
+        "pbts_enable_height": "0"
       }
     }
   }
