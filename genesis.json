@@ -474,7 +474,7 @@
         "window": "1",
         "fee_denom": "ugas",
         "enabled": true,
-        "distribute_fees": false
+        "distribute_fees": true
       },
       "state": {
         "base_gas_price": "1.000000000000000000",
