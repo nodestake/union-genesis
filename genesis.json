@@ -1,0 +1,682 @@
+{
+  "app_name": "uniond",
+  "app_version": "",
+  "genesis_time": "2025-03-06T03:27:03.681418972Z",
+  "chain_id": "union-1",
+  "initial_height": 1,
+  "app_hash": null,
+  "app_state": {
+    "06-solomachine": null,
+    "07-tendermint": null,
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union19d434y2rcw0swhuzly2evf3srteqz8ll0qkkka",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union1nzlyr7cc9v3e0x50gdg9zpwl5fwsqh3wqgcerw",
+          "pub_key": null,
+          "account_number": "1",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union1wd7vv04cutval0j5gm27qqx09u0hn3589xuulv",
+          "pub_key": null,
+          "account_number": "2",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union16cls5txlsv46v03wxdh0af8h329yv88zh8aq7c",
+          "pub_key": null,
+          "account_number": "3",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union140l6y2gp3gxvay6qtn70re7z2s0gn57zxwjvgs",
+          "pub_key": null,
+          "account_number": "4",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union1fvshtyvame9388rk5837nkzvavg920qx5rymuf",
+          "pub_key": null,
+          "account_number": "5",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union1wpm2d4h73pd5d6u3p7rw8707rkenduuckhxcsm",
+          "pub_key": null,
+          "account_number": "6",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union1n8pkyv96q4mtfn26yhkkngs4h6m58uvm9g5mwr",
+          "pub_key": null,
+          "account_number": "7",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union1g3uejnvsh3kmv9s534r9jauft80ejp469ngwu5",
+          "pub_key": null,
+          "account_number": "8",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union1e0c462q7lsf6kjpgvdfn6ll8zk58lyxtt0vhq9",
+          "pub_key": null,
+          "account_number": "9",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union13tk8m5eas6fs2sk79t9ujg9c98elp4gu7v589q",
+          "pub_key": null,
+          "account_number": "10",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union1tqhcnpjwfggpdjptc5nqrtwq8l9g33kak8gwrh",
+          "pub_key": null,
+          "account_number": "11",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union1pxgkleez58ehed6d0k0pnvz7jvxutgss4hktdq",
+          "pub_key": null,
+          "account_number": "12",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union12r4w6hdv6uym7rytc8tuudfxpp90zvjtjmjkfw",
+          "pub_key": null,
+          "account_number": "13",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union1hncxxflll786mqxvk6eg3rth5lrgm0w2yxn885",
+          "pub_key": null,
+          "account_number": "14",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union17c0hydeaqtry2mtrd03sak3g5jdt6hrs577frd",
+          "pub_key": null,
+          "account_number": "15",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union1an0at6dphzkd579mvpw32cs6d06f9d8vfs3wz6",
+          "pub_key": null,
+          "account_number": "16",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union1maxq9hma5h89ham2uvtfmv9uqujfratjpwj4qe",
+          "pub_key": null,
+          "account_number": "17",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union1608d6hvqnngg08ym4caeadxk8ul8jyn4duangn",
+          "pub_key": null,
+          "account_number": "18",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "union10mj598a4lt8gqzdppasjxyg6e2lm29plq5kdcn",
+          "pub_key": null,
+          "account_number": "19",
+          "sequence": "0"
+        }
+      ]
+    },
+    "authz": {
+      "authorization": []
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "union1pxgkleez58ehed6d0k0pnvz7jvxutgss4hktdq",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "union19d434y2rcw0swhuzly2evf3srteqz8ll0qkkka",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "10000000000000"
+            },
+            {
+              "denom": "upoa",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "address": "union1g3uejnvsh3kmv9s534r9jauft80ejp469ngwu5",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "union1fvshtyvame9388rk5837nkzvavg920qx5rymuf",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "10000000000000"
+            },
+            {
+              "denom": "upoa",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "address": "union12r4w6hdv6uym7rytc8tuudfxpp90zvjtjmjkfw",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "10000000000000"
+            },
+            {
+              "denom": "upoa",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "address": "union1tqhcnpjwfggpdjptc5nqrtwq8l9g33kak8gwrh",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "union1wpm2d4h73pd5d6u3p7rw8707rkenduuckhxcsm",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "521000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "union1wd7vv04cutval0j5gm27qqx09u0hn3589xuulv",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "10000000000000"
+            },
+            {
+              "denom": "upoa",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "address": "union10mj598a4lt8gqzdppasjxyg6e2lm29plq5kdcn",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "10000000000000"
+            },
+            {
+              "denom": "upoa",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "address": "union13tk8m5eas6fs2sk79t9ujg9c98elp4gu7v589q",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "union1nzlyr7cc9v3e0x50gdg9zpwl5fwsqh3wqgcerw",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "10000000000000"
+            },
+            {
+              "denom": "upoa",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "address": "union1n8pkyv96q4mtfn26yhkkngs4h6m58uvm9g5mwr",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "union140l6y2gp3gxvay6qtn70re7z2s0gn57zxwjvgs",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "10000000000000"
+            },
+            {
+              "denom": "upoa",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "address": "union1hncxxflll786mqxvk6eg3rth5lrgm0w2yxn885",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "10000000000000"
+            },
+            {
+              "denom": "upoa",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "address": "union1e0c462q7lsf6kjpgvdfn6ll8zk58lyxtt0vhq9",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "50000000000000"
+            }
+          ]
+        },
+        {
+          "address": "union1608d6hvqnngg08ym4caeadxk8ul8jyn4duangn",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "10000000000000"
+            },
+            {
+              "denom": "upoa",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "address": "union16cls5txlsv46v03wxdh0af8h329yv88zh8aq7c",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "10000000000000"
+            },
+            {
+              "denom": "upoa",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "address": "union1maxq9hma5h89ham2uvtfmv9uqujfratjpwj4qe",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "10000000000000"
+            },
+            {
+              "denom": "upoa",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "address": "union1an0at6dphzkd579mvpw32cs6d06f9d8vfs3wz6",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "10000000000000"
+            },
+            {
+              "denom": "upoa",
+              "amount": "1"
+            }
+          ]
+        },
+        {
+          "address": "union17c0hydeaqtry2mtrd03sak3g5jdt6hrs577frd",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "10000000000000"
+            },
+            {
+              "denom": "upoa",
+              "amount": "1"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "denom": "ugas",
+          "amount": "521430000000000000"
+        },
+        {
+          "denom": "upoa",
+          "amount": "13"
+        }
+      ],
+      "denom_metadata": [],
+      "send_enabled": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "circuit": {
+      "account_permissions": [],
+      "disabled_type_urls": []
+    },
+    "consensus": null,
+    "crisis": {
+      "constant_fee": {
+        "denom": "ugas",
+        "amount": "1000"
+      }
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.020000000000000000",
+        "base_proposer_reward": "0.000000000000000000",
+        "bonus_proposer_reward": "0.000000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "feeibc": {
+      "identified_fees": [],
+      "fee_enabled_channels": [],
+      "registered_payees": [],
+      "registered_counterparty_payees": [],
+      "forward_relayers": []
+    },
+    "feemarket": {
+      "params": {
+        "alpha": "0.000000000000000000",
+        "beta": "1.000000000000000000",
+        "gamma": "0.000000000000000000",
+        "delta": "0.000000000000000000",
+        "min_base_gas_price": "1.000000000000000000",
+        "min_learning_rate": "0.125000000000000000",
+        "max_learning_rate": "0.125000000000000000",
+        "max_block_utilization": "30000000",
+        "window": "1",
+        "fee_denom": "ugas",
+        "enabled": true,
+        "distribute_fees": true
+      },
+      "state": {
+        "base_gas_price": "1.000000000000000000",
+        "learning_rate": "0.125000000000000000",
+        "window": [
+          "0"
+        ],
+        "index": "0"
+      }
+    },
+    "genutil": {
+      "gen_txs": []
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": [],
+      "votes": [],
+      "proposals": [],
+      "deposit_params": null,
+      "voting_params": null,
+      "tally_params": null,
+      "params": {
+        "min_deposit": [
+          {
+            "denom": "ugas",
+            "amount": "10000000"
+          }
+        ],
+        "max_deposit_period": "86400s",
+        "voting_period": "14400s",
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000",
+        "min_initial_deposit_ratio": "0.000000000000000000",
+        "proposal_cancel_ratio": "0.500000000000000000",
+        "proposal_cancel_dest": "",
+        "expedited_voting_period": "3600s",
+        "expedited_threshold": "0.667000000000000000",
+        "expedited_min_deposit": [
+          {
+            "denom": "ugas",
+            "amount": "50000000"
+          }
+        ],
+        "burn_vote_quorum": false,
+        "burn_proposal_deposit_prevote": false,
+        "burn_vote_veto": true,
+        "min_deposit_ratio": "0.010000000000000000"
+      },
+      "constitution": ""
+    },
+    "group": {
+      "group_seq": "0",
+      "groups": [],
+      "group_members": [],
+      "group_policy_seq": "0",
+      "group_policies": [],
+      "proposal_seq": "0",
+      "proposals": [],
+      "votes": []
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "*"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0",
+        "params": {
+          "upgrade_timeout": {
+            "height": {
+              "revision_number": "0",
+              "revision_height": "0"
+            },
+            "timestamp": "600000000000"
+          }
+        }
+      }
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.130000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "ugas",
+        "inflation_rate_change": "0.130000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "params": null,
+    "poa": {
+      "vals": []
+    },
+    "runtime": null,
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "1000",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600s",
+        "slash_fraction_double_sign": "0.000000000000000000",
+        "slash_fraction_downtime": "0.000000000000000000"
+      },
+      "signing_infos": [],
+      "missed_blocks": []
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "86400s",
+        "max_validators": 128,
+        "max_entries": 7,
+        "historical_entries": 10000,
+        "bond_denom": "upoa",
+        "min_commission_rate": "0.000000000000000000",
+        "jailed_validator_threshold": 50,
+        "epoch_length": "100"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "validators": [],
+      "delegations": [],
+      "unbonding_delegations": [],
+      "redelegations": [],
+      "exported": false
+    },
+    "transfer": {
+      "port_id": "transfer",
+      "denom_traces": [],
+      "params": {
+        "send_enabled": true,
+        "receive_enabled": true
+      },
+      "total_escrowed": []
+    },
+    "upgrade": {},
+    "vesting": {},
+    "wasm": {
+      "params": {
+        "code_upload_access": {
+          "permission": "Everybody",
+          "addresses": []
+        },
+        "instantiate_default_permission": "Everybody"
+      },
+      "codes": [],
+      "contracts": [],
+      "sequences": []
+    }
+  },
+  "consensus": {
+    "params": {
+      "block": {
+        "max_bytes": "4194304",
+        "max_gas": "10000000"
+      },
+      "evidence": {
+        "max_age_num_blocks": "100000",
+        "max_age_duration": "172800000000000",
+        "max_bytes": "1048576"
+      },
+      "validator": {
+        "pub_key_types": [
+          "bn254"
+        ]
+      },
+      "version": {
+        "app": "0"
+      },
+      "synchrony": {
+        "precision": "505000000",
+        "message_delay": "15000000000"
+      },
+      "feature": {
+        "vote_extensions_enable_height": "0",
+        "pbts_enable_height": "1"
+      }
+    }
+  }
+}
